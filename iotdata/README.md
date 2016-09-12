@@ -25,7 +25,12 @@ fetchMock.mock('^http://localhost:3000', restServer.getHandler());
 ## good practice
 When do features, the first thing we should do is to leverage the existing componet. If we need to add componet into the framework itself. Please remember to follow the guide. I have a example to add a PasswordInput into the framework in the following sections.
 ## side effects lib
-We use redux-saga for side effects (AJAX calls, notifications, actions launched as a result of another action, etc).  
+We use redux-saga for side effects (AJAX calls, notifications, actions launched as a result of another action, etc).
+
+# How to Run
+## make sure you have npm and webpack installed
+## install node components
+## compile webpack
 
 # Use Admin Component
 ## Main App
